@@ -1,4 +1,4 @@
-# Lecture 1 - Deep Learning Fundamentals
+# [Lecture 1 - Deep Learning Fundamentals](https://www.youtube.com/watch?v=fGxWfEuUu0w&feature=emb_title&ab_channel=FullStackDeepLearning)
 
 ## Neural Networks
 
