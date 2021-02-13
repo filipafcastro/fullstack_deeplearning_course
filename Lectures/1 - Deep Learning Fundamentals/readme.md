@@ -47,7 +47,7 @@ We also want to walk towards the steepest direction in terms of minimizing loss.
 
 + Stochastic Gradient Descent (SGD): Instead of updating each weight at a time, we do it in batches. Stochastic gradient descent aka batch gradient descent. Less compute per optimization step (you just use one batch, not the entire data) for each optimization step. But of course it's more noisy than using all the data.
 
-+ How to compute these derivatives efficiently? Chain rule, because the neural net is made of computations which always have a gradient, this ia, functions that always have a derivative (eg. ax+b). 
++ How to compute these derivatives efficiently? Chain rule, because the neural net is made of computations which always have a gradient, this is, functions that always have a derivative (eg. ax+b). 
 This is called the **backpropagation step**.
 
 + we don't have to do it by hand, we have **automatic differentiation software** like PyTorch, Theano or Tensorflow. We just need to program the function/forward pass and the software automatically computes the derivatives in the backward pass.
@@ -65,5 +65,3 @@ Other adaptations: depth vs width, skip connections, batch/weight/layer normaliz
 ## CUDA
 Deep learning's kick-off on 2013 was not only caused by bigger datasets, but also by good libraries for matrix computations on GPUs (eg. Nvidia). 
 Because all the computations in deep learning are just matrix multiplications which are easy to paralelize over the computational cores of a GPU.
-
-# Notebook - coding a neural network from scratch
