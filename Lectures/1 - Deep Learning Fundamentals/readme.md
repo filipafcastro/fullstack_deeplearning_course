@@ -1,4 +1,5 @@
-# Lecture 1 - Deep Learning Fundamentals
+# 1️⃣ Deep Learning Fundamentals
+📼 [Video](https://www.youtube.com/watch?v=fGxWfEuUu0w&feature=emb_title&ab_channel=FullStackDeepLearning) | 📖 [Slides](https://github.com/filipafcastro/fullstack_deeplearning_course/blob/main/Lectures/1%20-%20Deep%20Learning%20Fundamentals/1.%20Deep%20Learning%20Fundamentals.pdf) | 📋 [Notebook](https://github.com/filipafcastro/fullstack_deeplearning_course/blob/main/Lectures/1%20-%20Deep%20Learning%20Fundamentals/neural_network_coding.ipynb)
 
 ## Neural Networks
 
@@ -23,17 +24,19 @@
 We've just talked about a neuron/perceptron. It's **neurons arranged in layers: input layer, hidden layers, output layers**. Each of these neurons has its own weights and bias and these will determine how the neural network will work.
 
 ## Universality
-+ one can prove that any two layer network (one hidden layer), if given enough units in the hidden layer, can approximate any function. The intuition can be obtained [in this chapetr of this book](http://neuralnetworksanddeeplearning.com/chap4.html). 
-+ **neural networks are universal/general, because theoretically you can represent any function using a neural network**.
+One can prove that any two layer network (one hidden layer), if given enough units in the hidden layer, can approximate any function. The intuition can be obtained [in this chapetr of this book](http://neuralnetworksanddeeplearning.com/chap4.html). **NNs are universal/general, because theoretically you can represent any function using a neural network**.
 
 ## Learning Problems
-+ **Unsupervised Learning:** learn the structure of the data; Eg. predict the next character on a sentence (charRNN); predict similarity/relationships between words (eg. man and woman have the same kind of relationship as queen and king); predict the next pixel/autocomplete images; compress and decompress images (VAEs); GANs: generate fake images which are indistinguishable from the real ones: [https://thispersondoesnotexist.com/](https://thispersondoesnotexist.com/)
-+ **Supervised Learning:** learn to make predictions on the data; 
-+ **Reinforcement Learning:** learn how to take actions according to the data/input/environment. Reality/feedback/reaction is also an input. 
-+ Supervised is the comercially viable at the moment. Reinforcement will be the next.
+**Unsupervised Learning:** learn the structure of the data; Eg. predict the next character on a sentence (charRNN); predict similarity/relationships between words (eg. man and woman have the same kind of relationship as queen and king); predict the next pixel/autocomplete images; compress and decompress images (VAEs); GANs: generate fake images which are indistinguishable from the real ones: [https://thispersondoesnotexist.com/](https://thispersondoesnotexist.com/)
+
+**Supervised Learning:** learn to make predictions on the data; 
+
+**Reinforcement Learning:** learn how to take actions according to the data/input/environment. Reality/feedback/reaction is also an input. 
+
+Supervised is the comercially viable at the moment. Reinforcement will be the next.
 
 ## Loss Functions
-+ It's about finding the parameters (weights and biases) that minimize the loss function (eg. MSE, cross-entropy).
+It's about finding the parameters (weights and biases) that minimize the loss function (eg. MSE, cross-entropy).
 
 ## Gradient Descent
 + **1.** We have some random weights and bias, random parameters.
@@ -47,7 +50,7 @@ We also want to walk towards the steepest direction in terms of minimizing loss.
 
 + Stochastic Gradient Descent (SGD): Instead of updating each weight at a time, we do it in batches. Stochastic gradient descent aka batch gradient descent. Less compute per optimization step (you just use one batch, not the entire data) for each optimization step. But of course it's more noisy than using all the data.
 
-+ How to compute these derivatives efficiently? Chain rule, because the neural net is made of computations which always have a gradient, this ia, functions that always have a derivative (eg. ax+b). 
++ How to compute these derivatives efficiently? Chain rule, because the neural net is made of computations which always have a gradient, this is, functions that always have a derivative (eg. ax+b). 
 This is called the **backpropagation step**.
 
 + we don't have to do it by hand, we have **automatic differentiation software** like PyTorch, Theano or Tensorflow. We just need to program the function/forward pass and the software automatically computes the derivatives in the backward pass.
@@ -65,5 +68,3 @@ Other adaptations: depth vs width, skip connections, batch/weight/layer normaliz
 ## CUDA
 Deep learning's kick-off on 2013 was not only caused by bigger datasets, but also by good libraries for matrix computations on GPUs (eg. Nvidia). 
 Because all the computations in deep learning are just matrix multiplications which are easy to paralelize over the computational cores of a GPU.
-
-# Notebook - coding a neural network from scratch
