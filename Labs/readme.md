@@ -1,7 +1,7 @@
 # Goal 
 Complete DL project for understanding handwritten text
 
-![Overview](./imgs/overview.png =200px)
+![Overview](./imgs/overview.png)
 
 # Tools & Frameworks:
 + PyTorch + PyTorch Lightning for development 
