@@ -23,17 +23,19 @@
 We've just talked about a neuron/perceptron. It's **neurons arranged in layers: input layer, hidden layers, output layers**. Each of these neurons has its own weights and bias and these will determine how the neural network will work.
 
 ## Universality
-+ one can prove that any two layer network (one hidden layer), if given enough units in the hidden layer, can approximate any function. The intuition can be obtained [in this chapetr of this book](http://neuralnetworksanddeeplearning.com/chap4.html). 
-+ **neural networks are universal/general, because theoretically you can represent any function using a neural network**.
+One can prove that any two layer network (one hidden layer), if given enough units in the hidden layer, can approximate any function. The intuition can be obtained [in this chapetr of this book](http://neuralnetworksanddeeplearning.com/chap4.html). **NNs are universal/general, because theoretically you can represent any function using a neural network**.
 
 ## Learning Problems
-+ **Unsupervised Learning:** learn the structure of the data; Eg. predict the next character on a sentence (charRNN); predict similarity/relationships between words (eg. man and woman have the same kind of relationship as queen and king); predict the next pixel/autocomplete images; compress and decompress images (VAEs); GANs: generate fake images which are indistinguishable from the real ones: [https://thispersondoesnotexist.com/](https://thispersondoesnotexist.com/)
-+ **Supervised Learning:** learn to make predictions on the data; 
-+ **Reinforcement Learning:** learn how to take actions according to the data/input/environment. Reality/feedback/reaction is also an input. 
-+ Supervised is the comercially viable at the moment. Reinforcement will be the next.
+**Unsupervised Learning:** learn the structure of the data; Eg. predict the next character on a sentence (charRNN); predict similarity/relationships between words (eg. man and woman have the same kind of relationship as queen and king); predict the next pixel/autocomplete images; compress and decompress images (VAEs); GANs: generate fake images which are indistinguishable from the real ones: [https://thispersondoesnotexist.com/](https://thispersondoesnotexist.com/)
+
+**Supervised Learning:** learn to make predictions on the data; 
+
+**Reinforcement Learning:** learn how to take actions according to the data/input/environment. Reality/feedback/reaction is also an input. 
+
+Supervised is the comercially viable at the moment. Reinforcement will be the next.
 
 ## Loss Functions
-+ It's about finding the parameters (weights and biases) that minimize the loss function (eg. MSE, cross-entropy).
+It's about finding the parameters (weights and biases) that minimize the loss function (eg. MSE, cross-entropy).
 
 ## Gradient Descent
 + **1.** We have some random weights and bias, random parameters.
