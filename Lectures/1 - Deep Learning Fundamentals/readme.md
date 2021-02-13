@@ -1,5 +1,5 @@
 # 1️⃣ Deep Learning Fundamentals
-> 📼 [Video](https://www.youtube.com/watch?v=fGxWfEuUu0w&feature=emb_title&ab_channel=FullStackDeepLearning) | 📖 [Slides](https://github.com/filipafcastro/fullstack_deeplearning_course/blob/main/Lectures/1%20-%20Deep%20Learning%20Fundamentals/1.%20Deep%20Learning%20Fundamentals.pdf) | 📋 [Notebook](https://github.com/filipafcastro/fullstack_deeplearning_course/blob/main/Lectures/1%20-%20Deep%20Learning%20Fundamentals/neural_network_coding.ipynb)
+📼 [Video](https://www.youtube.com/watch?v=fGxWfEuUu0w&feature=emb_title&ab_channel=FullStackDeepLearning) | 📖 [Slides](https://github.com/filipafcastro/fullstack_deeplearning_course/blob/main/Lectures/1%20-%20Deep%20Learning%20Fundamentals/1.%20Deep%20Learning%20Fundamentals.pdf) | 📋 [Notebook](https://github.com/filipafcastro/fullstack_deeplearning_course/blob/main/Lectures/1%20-%20Deep%20Learning%20Fundamentals/neural_network_coding.ipynb)
 
 ## Neural Networks
 
