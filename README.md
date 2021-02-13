@@ -1,5 +1,5 @@
-# fullstack_deeplearning_course
-Material and personal notes from the online coure Full Stack Deep Learning 2021
+# Full Stack Deep Learning - Spring 2021 
+Material and personal notes from the online course [Full Stack Deep Learning 2021](https://fullstackdeeplearning.com/spring2021/)
 
 # 📅 Schedule
 
