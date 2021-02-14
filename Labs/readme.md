@@ -11,6 +11,9 @@ Complete DL project for understanding handwritten text
 
 # On going work
 1️⃣ [Setup and intro](https://github.com/filipafcastro/fullstack_deeplearning_course/tree/main/Labs/lab1) 
+
 ✔️ Formulate problem
+
 ✔️ Structure codebase
+
 ✔️ Train an MLP on MNIST data.
