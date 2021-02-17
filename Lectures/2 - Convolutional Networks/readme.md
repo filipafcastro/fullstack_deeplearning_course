@@ -1,5 +1,5 @@
-# 2️⃣ Convolutional Networks (CNNs)
-📼 [Video](https://www.youtube.com/watch?v=hO3kOdShwsI&ab_channel=FullStackDeepLearning) | 📖 [Slides](https://github.com/filipafcastro/fullstack_deeplearning_course/blob/main/Lectures/2%20-%20Convolutional%20Networks/2%20-%20Convolutional%20Networks.pdf)
+# 2️⃣🅰️ Convolutional Networks (CNNs)
+📼 [Video](https://www.youtube.com/watch?v=hO3kOdShwsI&ab_channel=FullStackDeepLearning) | 📖 [Slides](https://github.com/filipafcastro/fullstack_deeplearning_course/blob/main/Lectures/2%20-%20Convolutional%20Networks/2A%20-%20Convolutional%20Networks.pdf)
 
 ## Convolutional Filters
 + Instead of taking the entire image flattened into a vector and then multiplied by a matrix, you extract a single patch of the image (eg. 5x5), which corresponds to a smaller vector, multiply it by a smaller vector as well, and obtain a one dimensional output/value. And you can slide this patch/window, always using the same weights. The outcome is a group of single values (one per each 5x5 patch), which together make a new matrix.
@@ -63,3 +63,8 @@ Check visualizations [here](https://github.com/vdumoulin/conv_arithmetic)
 ## ConvNet Architectures
 
 **LeNet(-like)**: [(Conv filter + Non-linearity) x many times --> pooling] x many times --> (FC + non-linearity) x many times --> Softmax. [Check slide 64](https://github.com/filipafcastro/fullstack_deeplearning_course/blob/main/Lectures/2%20-%20Convolutional%20Networks/2%20-%20Convolutional%20Networks.pdf)
+
+# 2️⃣🅱️ Computer Vision Applications
+📼 [Video](https://www.youtube.com/watch?v=rHGUVo6GjVA&ab_channel=FullStackDeepLearning) | 📖 [Slides](https://github.com/filipafcastro/fullstack_deeplearning_course/blob/main/Lectures/2%20-%20Convolutional%20Networks/2A%20-%20Convolutional%20Networks.pdf)
+
+## 
