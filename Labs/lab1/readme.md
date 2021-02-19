@@ -9,17 +9,6 @@ We will cover:
 - PyTorch-Lightning based training
 - A single point of entry to running experiments: `python3 run_experiment.py`
 
-## Before you begin, make sure to set up!
-
-Please complete [Lab Setup](/setup/readme.md) before proceeding!
-
-Then, in the `fsdl-text-recognizer-2021-labs` repo, let's pull the latest changes, and enter the lab1 directory.
-
-```
-git pull
-cd lab1/
-```
-
 ## Directory Structure
 
 In our labs, we will be building a code base incrementally.
