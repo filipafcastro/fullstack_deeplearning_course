@@ -1,3 +1,16 @@
+- [1️⃣ Deep Learning Fundamentals](#1---deep-learning-fundamentals)
+  * [Neural Networks](#neural-networks)
+    + [Biological logic/inspiration of a neuron:](#biological-logic-inspiration-of-a-neuron-)
+    + [From biology to its mathematical representation -  the perceptron:](#from-biology-to-its-mathematical-representation----the-perceptron-)
+    + [Activation functions:](#activation-functions-)
+    + [What's indeed a neural network?](#what-s-indeed-a-neural-network-)
+  * [Universality](#universality)
+  * [Learning Problems](#learning-problems)
+  * [Loss Functions](#loss-functions)
+  * [Gradient Descent](#gradient-descent)
+  * [Architectures](#architectures)
+  * [CUDA](#cuda)
+
 # 1️⃣ Deep Learning Fundamentals
 📼 [Video](https://www.youtube.com/watch?v=fGxWfEuUu0w&feature=emb_title&ab_channel=FullStackDeepLearning) | 📖 [Slides](https://github.com/filipafcastro/fullstack_deeplearning_course/blob/main/Lectures/1%20-%20Deep%20Learning%20Fundamentals/1.%20Deep%20Learning%20Fundamentals.pdf) | 📋 [Notebook](https://github.com/filipafcastro/fullstack_deeplearning_course/blob/main/Lectures/1%20-%20Deep%20Learning%20Fundamentals/neural_network_coding.ipynb)
 
